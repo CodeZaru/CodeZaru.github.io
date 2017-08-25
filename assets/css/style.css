@@ -1,127 +1,180 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  background-color:#4183D7;
+	  font-family: Arial, Helvetica, sans-serif;
+	    }
 
-body {
-
-
-	background: #CCC !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-
-	aside {
-		background-color: #ffffff;
-		text-align: center;
-	}
-
-	#myNavbar {
-
-		background-color: #ffffff;
-	}
-
-	.navbar-inverse .navbar-nav>.active>a {
-		background-image: linear-gradient(to bottom,#4aaaa5 0,#4aaaa5 100%)!important;
-	}
-
-	.navbar-brand {
-		background-image: linear-gradient(to bottom,#4aaaa5 0,#4aaaa5 100%)!important;
-		color: #ffffff !important;
-	}
-
-
-
-
-/*
-.navbar-inverse .navbar-nav>.active>a {
-	background-color: #4aaaa5 !important;
-
+#topbar{
+ height:50px;
+ margin:auto;
+ margin-top:50px;
+ color:#FFF;
+ font-size:36px;
+ width:800px;
+ border-bottom:solid white 1px;
 }
 
-.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
-    color: #fff !important;
-    background-color: #4aaaa5 !important;
+#gameContent{
+ margin:auto;	
+ width:800px;
+ height:400px;
+ position:relative;
+ overflow:hidden;
+ background-color:#3498DB;
+}
+
+.spacer{height:30px;}
+
+
+
+
+#gameTitle{
+ margin-top:100px;
+ text-align:center;
+ font-size:40px;
+ color:#fff;}
+
+.button{font-size:17px;
+ width:100px;
+ margin:auto;
+ margin-top:20px;
+ cursor:pointer;
+ border:solid 1px white;
+ border-radius:4px;
+ text-align:center;
+ color:#fff;}
+
+.button:hover{
+ background-color:#6AB0FD;}
+
+#replay{
+ margin-left:0px;}
+ 
+
+
+
+
+
+#wordHolder{
+ margin-top:50px;
+ margin-left:150px;
+}
+ 
+#clueHolder{
+ margin-top:130px;
+ margin-left:150px;
+}
+ 
+#guesses{
+ margin-top:20px;
+ margin-left:150px;
+}
+ 
+#pixHolder{
+ margin-left:30px;
+ width:75px;
+ float:left;
+ overflow:hidden;
+}
+ 
+#pixHolder img{
+ position:relative;}
+ 
+#feedback{
+ margin-top:20px;
+ margin-left:150px;
+ font-size:34px;
+ color:#fff;
+}
+ 
+.tile{
+ height:40px;
+ width:40px;
+ float:left;
+ margin-right:10px;
+ background-color:white;
+ text-align:center;
+ font-size:24px;
+ color:#333;
+ padding-top:5px;
+}
+ 
+#finalMessage{
+ text-align:center;
+ font-size:40px;
+ color:#fff;
+ width:90%;
+ margin:auto;
+ margin-top:100px;
+}
+ 
+#dummy{
+ position:absolute;
+ left:-200px;
+ top:0px;
+}
+ 
+@media screen and (max-width:800px) {
+ #topbar{
+	 margin-left:1%;
+	 margin-right:1%;	
+	 width:96%;
  }
- */ 
-
- .mainContent {
-
- 	background-color: #ffffff;
-
+ #gameContent{
+	 margin:1%;	
+	 width:98%;
  }
-
- .mainContentText {
-
- 	background-color: #ffffff;
-
+ .tile{
+	 height:20px;
+	 width:20px;
+	 font-size:14px;
  }
-
- .bioImage {
- 	float: left;
- 	width:33%;
- 	/*padding: 25px 5px 5px 25px;*/
+}
+ 
+@media screen and (max-width:560px) {
+ #wordHolder{
+	 margin-top:10px;
+	 margin-left:10px;
  }
-
- footer{
- 	background-color: #666666;
- 	border-top: 4px solid #4aaaa5;
- 	color: #ffffff;
-
+ #clueHolder{
+	 margin-top:130px;
+	 margin-left:85px;
  }
-
-.connectBoxHeader{
-	color: #4aaaa5;
+ #guesses{
+	 margin-top:20px;
+	 margin-left:85px;
+ }
+ #pixHolder{
+	 margin-top:50px;
+	 margin-left:10px;
+	 position:absolute;
+ }
+ #feedback{
+	 margin-left:85px;
+	 font-size:28px;
+ }
+ #finalMessage{
+	 font-size:30px;
+ }
 }
 
- .connectBoxHorizontalLine {
-	max-width: 590px;
-	height: 3px;
-	background-color: #e2e2e2;
-}
 
-.hLine {
-	max-width: 900px;
-	height: 3px;
-	background-color: #e2e2e2;
-}
 
-.mainContentH {
-	color: #4aaaa5;
-}
 
-#contact-button {
-  background-color: #4aaaa5;
-  color: #ffffff;
-  text-align: center;
-  font-weight: bold;
-  padding: 15px;
-  max-width: 100px;
-}
 
-#contact-button:hover {
-  background-color: #5E7F7E;
 
-}
 
-#contact-button a {
 
-  color: #ffffff;
-  text-decoration: none;
-}
 
-.btn-default {
-	background-image: linear-gradient(to bottom,#4aaaa5 0,#4aaaa5 100%)!important;
-	color: #ffffff !important;
-	}
 
-#hangman {
-	}
 
-#rPG {
-	}
 
-#trivia {
 
-}
 
-#rutgers {
 
-}
 
-#rockPaperScissors {
 
-}
+
+
+
